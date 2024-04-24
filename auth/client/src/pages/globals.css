@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Outfit", sans-serif;
+}
+
+.input-style {
+  @apply border border-gray-300 rounded w-96 py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:border-blue-500;
+}
+.label-style {
+  @apply block text-gray-700 text-sm font-bold mb-2;
+}
+
+.button-style {
+  @apply px-5 py-2 bg-slate-900 text-white;
+}
